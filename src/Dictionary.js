@@ -31,9 +31,9 @@ export default function Dictionary() {
           placeholder="Enter a word"
           onChange={handleKeywordChange}
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" className="btn btn-info search-button" />
       </form>
-          <Results results={results} />
+      <Results results={results} />
     </div>
   );
 }
