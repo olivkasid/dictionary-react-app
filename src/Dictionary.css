@@ -5,3 +5,6 @@
 .Dictionary .search-button {
   margin: 0 20px;
 }
+.synonym {
+  background-color: red;
+}
